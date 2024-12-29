@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 from wordcloud import WordCloud
 import pandas as pd
@@ -232,4 +232,4 @@ def emoji_analysis(selected_user, df):
     emojis_df = pd.DataFrame(emoji_counts, columns=['Emoji', 'Frequency'])  # Convert to DataFrame
     return emojis_df
 
->>>>>>> 7b42a8b7034339b285df1333cc77fd312f0ffce3
+
